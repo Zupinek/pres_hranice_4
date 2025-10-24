@@ -1,0 +1,1404 @@
+fileFormatVersion: 2
+guid: d0144fe29253605468e30504791f01c8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -710945145892400087
+    second: CaveBG - kopie_0
+  - first:
+      213: -8856688106055733780
+    second: CaveBG - kopie_1
+  - first:
+      213: 1978528771546207541
+    second: CaveBG - kopie_2
+  - first:
+      213: 7630940535143981301
+    second: CaveBG - kopie_3
+  - first:
+      213: -7276649584477398214
+    second: CaveBG - kopie_4
+  - first:
+      213: -907390290785678081
+    second: CaveBG - kopie_5
+  - first:
+      213: 7494102856407413134
+    second: CaveBG - kopie_6
+  - first:
+      213: -5349204681573535189
+    second: CaveBG - kopie_7
+  - first:
+      213: 8463325804266178687
+    second: CaveBG - kopie_8
+  - first:
+      213: 2162956833910783014
+    second: CaveBG - kopie_9
+  - first:
+      213: -400428527468330073
+    second: CaveBG - kopie_10
+  - first:
+      213: -7629551954797514556
+    second: CaveBG - kopie_11
+  - first:
+      213: 1662865477578187537
+    second: CaveBG - kopie_12
+  - first:
+      213: 5743589519462680339
+    second: CaveBG - kopie_13
+  - first:
+      213: 2734626123988956610
+    second: CaveBG - kopie_14
+  - first:
+      213: -8234726855980615915
+    second: CaveBG - kopie_15
+  - first:
+      213: 4470232558225820455
+    second: CaveBG - kopie_16
+  - first:
+      213: -4106243765859626706
+    second: CaveBG - kopie_17
+  - first:
+      213: -4342202649750277557
+    second: CaveBG - kopie_18
+  - first:
+      213: -8473945080663487234
+    second: CaveBG - kopie_19
+  - first:
+      213: 2831875381154094509
+    second: CaveBG - kopie_20
+  - first:
+      213: 5516254244248586925
+    second: CaveBG - kopie_21
+  - first:
+      213: 3801827599273824758
+    second: CaveBG - kopie_22
+  - first:
+      213: 85455600188044590
+    second: CaveBG - kopie_23
+  - first:
+      213: -4967971580522159282
+    second: CaveBG - kopie_24
+  - first:
+      213: 4110994069314470251
+    second: CaveBG - kopie_25
+  - first:
+      213: 4472844201919748249
+    second: CaveBG - kopie_26
+  - first:
+      213: -5430263432989997482
+    second: CaveBG - kopie_27
+  - first:
+      213: 2866589218136547086
+    second: CaveBG - kopie_28
+  - first:
+      213: -1622043010765837147
+    second: CaveBG - kopie_29
+  - first:
+      213: 3548284492416476139
+    second: CaveBG - kopie_30
+  - first:
+      213: 2980295489088288044
+    second: CaveBG - kopie_31
+  - first:
+      213: -8412430383836348525
+    second: CaveBG - kopie_32
+  - first:
+      213: 5879395355645182795
+    second: CaveBG - kopie_33
+  - first:
+      213: 6336998509267434802
+    second: CaveBG - kopie_34
+  - first:
+      213: -617856657201303884
+    second: CaveBG - kopie_35
+  - first:
+      213: 7021340873261820250
+    second: CaveBG - kopie_36
+  - first:
+      213: 451255059928937809
+    second: CaveBG - kopie_37
+  - first:
+      213: -4619964769119623003
+    second: CaveBG - kopie_38
+  - first:
+      213: 2815985724509078094
+    second: CaveBG - kopie_39
+  - first:
+      213: -3397097760760751807
+    second: CaveBG - kopie_40
+  - first:
+      213: -8696834621015808876
+    second: CaveBG - kopie_41
+  - first:
+      213: -1491095638555864471
+    second: CaveBG - kopie_42
+  - first:
+      213: 1210331240238391519
+    second: CaveBG - kopie_43
+  - first:
+      213: 6206632712940823277
+    second: CaveBG - kopie_44
+  - first:
+      213: 539675384566675693
+    second: CaveBG - kopie_45
+  - first:
+      213: 7987864489934439374
+    second: CaveBG - kopie_46
+  - first:
+      213: -4730998659647997230
+    second: CaveBG - kopie_47
+  - first:
+      213: 5700291994037956188
+    second: CaveBG - kopie_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CaveBG - kopie_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9249b4418273226f0800000000000000
+      internalID: -710945145892400087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cedee10a719b61580800000000000000
+      internalID: -8856688106055733780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 479
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535d6ed5f65257b10800000000000000
+      internalID: 1978528771546207541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 479
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0e26b7cfb86e960800000000000000
+      internalID: 7630940535143981301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_4
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 479
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b1b3a91c5240b90800000000000000
+      internalID: -7276649584477398214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_5
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 479
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffcc41d865d4863f0800000000000000
+      internalID: -907390290785678081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_6
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 479
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81776aa7d6600860800000000000000
+      internalID: 7494102856407413134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22f3f3feaec3c5b0800000000000000
+      internalID: -5349204681573535189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78cea57af5c37570800000000000000
+      internalID: 8463325804266178687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_9
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c71c5d7cd540e10800000000000000
+      internalID: 2162956833910783014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_10
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a341563064617af0800000000000000
+      internalID: -400428527468330073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c038e29be26e1690800000000000000
+      internalID: -7629551954797514556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_12
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113ee44775fa31710800000000000000
+      internalID: 1662865477578187537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_13
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317ca33bc3455bf40800000000000000
+      internalID: 5743589519462680339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 415
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c57dd998f753f520800000000000000
+      internalID: 2734626123988956610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_15
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 383
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 517f7eecd8f58bd80800000000000000
+      internalID: -8234726855980615915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_16
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 383
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b8f60d3d4790e30800000000000000
+      internalID: 4470232558225820455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_17
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 383
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2156cefc01b307c0800000000000000
+      internalID: -4106243765859626706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_18
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 383
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42ffde22b56db3c0800000000000000
+      internalID: -4342202649750277557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_19
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 383
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc42e498df766a80800000000000000
+      internalID: -8473945080663487234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_20
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 383
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad1dddb7a7dc4720800000000000000
+      internalID: 2831875381154094509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 97
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa8d2f320cad8c40800000000000000
+      internalID: 5516254244248586925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_22
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 351
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f11efffe0ec2c430800000000000000
+      internalID: 3801827599273824758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_23
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 351
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25b6456a699f2100800000000000000
+      internalID: 85455600188044590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_24
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 351
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43adb04b283e0bb0800000000000000
+      internalID: -4967971580522159282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_25
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 351
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b610a37335f2d0930800000000000000
+      internalID: 4110994069314470251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_26
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 351
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998971f7a1cb21e30800000000000000
+      internalID: 4472844201919748249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_27
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 287
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65686dfad24d3a4b0800000000000000
+      internalID: -5430263432989997482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_28
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 287
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f5effb4bb28c720800000000000000
+      internalID: 2866589218136547086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_29
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 287
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aca5e4c9785d79e0800000000000000
+      internalID: -1622043010765837147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_30
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 223
+        width: 66
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3e28c32f90e3130800000000000000
+      internalID: 3548284492416476139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 97
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c257ec005f22c5920800000000000000
+      internalID: 2980295489088288044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_32
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 287
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f3bb9032b014b80800000000000000
+      internalID: -8412430383836348525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 287
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b430053fceec79150800000000000000
+      internalID: 5879395355645182795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_34
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 287
+        width: 98
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23db01fb19a81f750800000000000000
+      internalID: 6336998509267434802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_35
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 255
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bee761d4aeec67f0800000000000000
+      internalID: -617856657201303884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59a3b5d250d07160800000000000000
+      internalID: 7021340873261820250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_37
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 223
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155792e061e234600800000000000000
+      internalID: 451255059928937809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_38
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 223
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a82ec5258692efb0800000000000000
+      internalID: -4619964769119623003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_39
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 223
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e424fe1c814641720800000000000000
+      internalID: 2815985724509078094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_40
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 258
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149949ec5951bd0d0800000000000000
+      internalID: -3397097760760751807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_41
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 159
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494a8007df2ae4780800000000000000
+      internalID: -8696834621015808876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_42
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 159
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9625eb9ba609e4be0800000000000000
+      internalID: -1491095638555864471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 193
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0a7f2b9d5fbc010800000000000000
+      internalID: 1210331240238391519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_44
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 194
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2282a7193622650800000000000000
+      internalID: 6206632712940823277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_45
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 174
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de87e1727ef4d7700800000000000000
+      internalID: 539675384566675693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_46
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 97
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3cf7c9e689ade60800000000000000
+      internalID: 7987864489934439374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_47
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 31
+        width: 130
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2daf4d2f8cd185eb0800000000000000
+      internalID: -4730998659647997230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveBG - kopie_48
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 31
+        width: 129
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ea2acfd518b1f40800000000000000
+      internalID: 5700291994037956188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CaveBG - kopie_0: -710945145892400087
+      CaveBG - kopie_1: -8856688106055733780
+      CaveBG - kopie_10: -400428527468330073
+      CaveBG - kopie_11: -7629551954797514556
+      CaveBG - kopie_12: 1662865477578187537
+      CaveBG - kopie_13: 5743589519462680339
+      CaveBG - kopie_14: 2734626123988956610
+      CaveBG - kopie_15: -8234726855980615915
+      CaveBG - kopie_16: 4470232558225820455
+      CaveBG - kopie_17: -4106243765859626706
+      CaveBG - kopie_18: -4342202649750277557
+      CaveBG - kopie_19: -8473945080663487234
+      CaveBG - kopie_2: 1978528771546207541
+      CaveBG - kopie_20: 2831875381154094509
+      CaveBG - kopie_21: 5516254244248586925
+      CaveBG - kopie_22: 3801827599273824758
+      CaveBG - kopie_23: 85455600188044590
+      CaveBG - kopie_24: -4967971580522159282
+      CaveBG - kopie_25: 4110994069314470251
+      CaveBG - kopie_26: 4472844201919748249
+      CaveBG - kopie_27: -5430263432989997482
+      CaveBG - kopie_28: 2866589218136547086
+      CaveBG - kopie_29: -1622043010765837147
+      CaveBG - kopie_3: 7630940535143981301
+      CaveBG - kopie_30: 3548284492416476139
+      CaveBG - kopie_31: 2980295489088288044
+      CaveBG - kopie_32: -8412430383836348525
+      CaveBG - kopie_33: 5879395355645182795
+      CaveBG - kopie_34: 6336998509267434802
+      CaveBG - kopie_35: -617856657201303884
+      CaveBG - kopie_36: 7021340873261820250
+      CaveBG - kopie_37: 451255059928937809
+      CaveBG - kopie_38: -4619964769119623003
+      CaveBG - kopie_39: 2815985724509078094
+      CaveBG - kopie_4: -7276649584477398214
+      CaveBG - kopie_40: -3397097760760751807
+      CaveBG - kopie_41: -8696834621015808876
+      CaveBG - kopie_42: -1491095638555864471
+      CaveBG - kopie_43: 1210331240238391519
+      CaveBG - kopie_44: 6206632712940823277
+      CaveBG - kopie_45: 539675384566675693
+      CaveBG - kopie_46: 7987864489934439374
+      CaveBG - kopie_47: -4730998659647997230
+      CaveBG - kopie_48: 5700291994037956188
+      CaveBG - kopie_5: -907390290785678081
+      CaveBG - kopie_6: 7494102856407413134
+      CaveBG - kopie_7: -5349204681573535189
+      CaveBG - kopie_8: 8463325804266178687
+      CaveBG - kopie_9: 2162956833910783014
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
