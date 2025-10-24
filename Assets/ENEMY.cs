@@ -14,7 +14,7 @@ public class EnemyAI : MonoBehaviour
     [Header("Detekce země")]
     public Transform groundCheck;        // prázdný objekt pod nohama
     public float groundCheckDistance = 0.2f;
-    public LayerMask groundLayer;        // nastav v Inspectoru na vrstvu země
+    public LayerMask groundLayer;        // nastav v Inspectoru
 
     [Header("Útok")]
     public float damage = 10f;
@@ -23,6 +23,8 @@ public class EnemyAI : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
     private float lastAttackTime;
+    private float lastJumpTime;
+    public float jumpCooldown = 0.5f; // 🕒 zabrání opakovaným skokům
 
     void Start()
     {
@@ -38,6 +40,9 @@ public class EnemyAI : MonoBehaviour
     void Update()
     {
         CheckGround();
+
+        // 🧠 Debug info – uvidíš v konzoli, kdy enemy myslí, že je na zemi
+        // Debug.Log($"{gameObject.name} grounded = {isGrounded}");
     }
 
     void FixedUpdate()
@@ -50,10 +55,14 @@ public class EnemyAI : MonoBehaviour
             float directionX = Mathf.Sign(player.position.x - transform.position.x);
             rb.linearVelocity = new Vector2(directionX * moveSpeed, rb.linearVelocity.y);
 
-            // ✅ Skok jen pokud je na zemi a hráč výš
-            if (isGrounded && player.position.y > transform.position.y + 0.5f)
+            // ✅ Skok jen pokud:
+            // - Je na zemi
+            // - Hráč je výš
+            // - Uplynul cooldown
+            if (isGrounded && player.position.y > transform.position.y + 0.5f && Time.time - lastJumpTime > jumpCooldown)
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+                lastJumpTime = Time.time;
             }
 
             // Otočení směrem k hráči
@@ -67,7 +76,6 @@ public class EnemyAI : MonoBehaviour
         }
     }
 
-    // Damage přes čas
     void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -94,11 +102,9 @@ public class EnemyAI : MonoBehaviour
 
     void OnDrawGizmosSelected()
     {
-        // detekční radius
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
 
-        // ray pro zemi
         if (groundCheck != null)
         {
             Gizmos.color = isGrounded ? Color.green : Color.yellow;
