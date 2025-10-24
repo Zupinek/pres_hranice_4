@@ -678,11 +678,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-<<<<<<< HEAD
-  activeInputHandler: 2
-=======
-  activeInputHandler: 0
->>>>>>> parent of 0806428 (Revert "Merge pull request #5 from Zupinek/radek_zadek_neni_to_muj_kamaradek")
+
   windowsGamepadBackendHint: 0
   cloudProjectId: 0e5db2f0-cbaa-4eaa-9049-ceab2f535dc9
   framebufferDepthMemorylessMode: 0
