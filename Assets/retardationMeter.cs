@@ -4,21 +4,25 @@ using UnityEngine.UI;
 public class LethalDoseSystem : MonoBehaviour
 {
     [Header("Reference na radiaci")]
-    public RadiationZone2D radiationSystem; // Přetáhni objekt se skriptem RadiationZone2D
+    public RadiationZone2D radiationSystem; // Přetáhni objekt s RadiationZone2D
 
     [Header("Nastavení smrtelné dávky")]
-    public float lethalRate = 4f;      // Jak rychle roste smrtelná dávka
-    public float maxLethal = 100f;     // Maximum smrtelné dávky
+    public float lethalRate = 4f;       // Jak rychle roste smrtelná dávka
+    public float maxLethal = 100f;      // Maximum dávky
 
     [Header("UI")]
-    public Slider lethalSlider;        // Slider pro smrtelnou dávku
-    public Image fillImage;            // Fill Image uvnitř slideru (volitelné)
+    public Slider lethalSlider;
+    public Image fillImage;
 
     [Header("Barvy přechodu (volitelné)")]
     public Color lowColor = Color.green;
     public Color highColor = Color.black;
 
+    [Header("Reference na systém smrti")]
+    public PlayerDeathManager deathManager; // 💀 Přetáhni sem objekt s PlayerDeathManager
+
     private float currentLethal = 0f;
+    private bool lethalReached = false;
 
     void Start()
     {
@@ -27,31 +31,30 @@ public class LethalDoseSystem : MonoBehaviour
             lethalSlider.minValue = 0;
             lethalSlider.maxValue = maxLethal;
             lethalSlider.value = 0;
-            lethalSlider.wholeNumbers = false; // ✅ přesnější výpočet bez zaokrouhlení
+            lethalSlider.wholeNumbers = false;
         }
     }
 
     void Update()
     {
-        if (radiationSystem == null) return;
+        if (radiationSystem == null || lethalReached) return;
 
-        // 🔹 Roste jen pokud je radiace plná (nikdy neklesá)
+        // Roste jen pokud je radiace plná
         if (radiationSystem.IsRadiationFull())
-        {
             currentLethal += lethalRate * Time.deltaTime;
-        }
 
-        // 🔹 Udržení hodnoty v rozsahu
+        // Omez hodnoty
         currentLethal = Mathf.Clamp(currentLethal, 0, maxLethal);
-
-        // 🔹 Aktualizace UI
         UpdateUI();
 
-        // 🔹 Kontrola maximální dávky
+        // Když je dávka plná → informuj PlayerDeathManager
         if (currentLethal >= maxLethal)
         {
-            Debug.Log("💀 Hráč dostal smrtelnou dávku radiace!");
-            // TODO: Zde můžeš přidat smrt, efekt, respawn apod.
+            currentLethal = maxLethal;
+            lethalReached = true;
+            Debug.Log("☢️ Smrtelná dávka dosažena!");
+            if (deathManager != null)
+                deathManager.OnLethalDoseReached(); // 🧩 zavolá smrt
         }
     }
 
@@ -59,18 +62,8 @@ public class LethalDoseSystem : MonoBehaviour
     {
         if (lethalSlider == null) return;
 
-        // ✅ Dorovnání – zajistí, že slider je vizuálně úplně plný
-        if (currentLethal >= maxLethal - 0.001f)
-        {
-            currentLethal = maxLethal;
-            lethalSlider.value = lethalSlider.maxValue;
-        }
-        else
-        {
-            lethalSlider.value = currentLethal;
-        }
+        lethalSlider.value = currentLethal;
 
-        // 🔹 Přechod barvy (volitelné)
         if (fillImage != null)
         {
             float t = currentLethal / maxLethal;
@@ -78,9 +71,6 @@ public class LethalDoseSystem : MonoBehaviour
         }
     }
 
-    // 🔸 Volitelné – zjistí, jestli je dávka plná
-    public bool IsLethalFull()
-    {
-        return currentLethal >= maxLethal;
-    }
+    // Getter (pokud chceš z jiných skriptů číst hodnotu)
+    public float GetCurrentLethal() => currentLethal;
 }
