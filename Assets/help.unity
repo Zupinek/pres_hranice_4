@@ -150,17 +150,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6213685871561087718, guid: 1f8eb2bb5cd0d524f9dedd2efaea5313, type: 3}
   m_PrefabInstance: {fileID: 8519971725662569581}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &973893239 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8729740825154108211, guid: 7e2e782c2c6cb6b48adab79f7f9f48d2, type: 3}
-  m_PrefabInstance: {fileID: 8395101236696416889}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8395101236696416892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abaa989a0df8fed43bc424dfa5e5748b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!114 &1285615192 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8185009984923388852, guid: 7e2e782c2c6cb6b48adab79f7f9f48d2, type: 3}
@@ -183,6 +172,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
+--- !u!1 &1618030975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5055372708542229453, guid: 38eced0b2873f0d419f72da1b7abe35d, type: 3}
+  m_PrefabInstance: {fileID: 9108133792387082350}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1618030978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618030975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cc06338633fef74c8ddd8fb6572df20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LethalDoseSystem
+  radiationSystem: {fileID: 8395101236696416893}
+  lethalRate: 5
+  maxLethal: 100
+  lethalSlider: {fileID: 1300242600}
+  fillImage: {fileID: 1285615192}
+  lowColor: {r: 0, g: 1, b: 0, a: 1}
+  highColor: {r: 0, g: 0, b: 0, a: 1}
+  player: {fileID: 0}
+  deathDelay: 1.5
+  autoRestart: 1
 --- !u!1001 &537188044299106103
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -722,7 +738,7 @@ PrefabInstance:
     - target: {fileID: 6177274300736601029, guid: 4d5a4087226a263459c6b0b086f98d8f, type: 3}
       propertyPath: radiationSystem
       value: 
-      objectReference: {fileID: 973893239}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -840,7 +856,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8729740825154108211, guid: 7e2e782c2c6cb6b48adab79f7f9f48d2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -1014,7 +1031,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5055372708542229453, guid: 38eced0b2873f0d419f72da1b7abe35d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1618030978}
   m_SourcePrefab: {fileID: 100100000, guid: 38eced0b2873f0d419f72da1b7abe35d, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
