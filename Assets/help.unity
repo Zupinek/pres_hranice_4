@@ -155,7 +155,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8729740825154108211, guid: 7e2e782c2c6cb6b48adab79f7f9f48d2, type: 3}
   m_PrefabInstance: {fileID: 8395101236696416889}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 8395101236696416892}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: abaa989a0df8fed43bc424dfa5e5748b, type: 3}
@@ -843,8 +843,57 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1450763844660476685, guid: 7e2e782c2c6cb6b48adab79f7f9f48d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8395101236696416893}
   m_SourcePrefab: {fileID: 100100000, guid: 7e2e782c2c6cb6b48adab79f7f9f48d2, type: 3}
+--- !u!114 &8395101236696416890 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2434127987824992658, guid: 7e2e782c2c6cb6b48adab79f7f9f48d2, type: 3}
+  m_PrefabInstance: {fileID: 8395101236696416889}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+--- !u!114 &8395101236696416891 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4815074515545033212, guid: 7e2e782c2c6cb6b48adab79f7f9f48d2, type: 3}
+  m_PrefabInstance: {fileID: 8395101236696416889}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
+--- !u!1 &8395101236696416892 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1450763844660476685, guid: 7e2e782c2c6cb6b48adab79f7f9f48d2, type: 3}
+  m_PrefabInstance: {fileID: 8395101236696416889}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8395101236696416893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8395101236696416892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff90d5a1f88483459c9d293f47605da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RadiationZone2D
+  radiationRate: 7
+  maxRadiation: 100
+  decayRate: 2
+  radiationSlider: {fileID: 8395101236696416891}
+  fillImage: {fileID: 8395101236696416890}
+  safeColor: {r: 0, g: 1, b: 0, a: 1}
+  dangerColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &8519971725662569581
 PrefabInstance:
   m_ObjectHideFlags: 0
