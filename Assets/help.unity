@@ -617,7 +617,10 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1 &832434641
@@ -758,6 +761,9 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -911,7 +917,11 @@ SpriteRenderer:
   m_SpriteTileMode: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_WasSpriteAssigned: 1
+=======
+  m_WasSpriteAssigned: 0
+>>>>>>> Stashed changes
 =======
   m_WasSpriteAssigned: 0
 >>>>>>> Stashed changes
@@ -931,7 +941,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalPosition: {x: -4.4837, y: 0.961, z: 0}
+=======
+  m_LocalPosition: {x: -5.94, y: -0.86, z: 0}
+>>>>>>> Stashed changes
 =======
   m_LocalPosition: {x: -5.94, y: -0.86, z: 0}
 >>>>>>> Stashed changes
@@ -954,12 +968,15 @@ MonoBehaviour:
   m_EditorHideFlags: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: bc404442f234487458c8605d2facb7b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   moveSpeed: 5
   jumpForce: 10
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   m_Script: {fileID: 11500000, guid: 2ead06a6d58283248964132b8ceaf7cc, type: 3}
@@ -973,6 +990,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1116,10 +1136,13 @@ MonoBehaviour:
   fillImage: {fileID: 554035394}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   safeColor: {r: 0, g: 1, b: 0, a: 1}
   mediumColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   dangerColor: {r: 1, g: 0, b: 0, a: 1}
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
   safeColor:
@@ -1138,6 +1161,9 @@ MonoBehaviour:
     b: 0
     a: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1197,6 +1223,7 @@ Transform:
   serializedVersion: 2
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -4.5, z: 0}
   m_LocalScale: {x: 22.37, y: 4.65, z: 1}
@@ -1206,6 +1233,8 @@ Transform:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 55, y: -458.6, z: -4572.0005}
   m_LocalScale: {x: 1136.3961, y: 236.22002, z: 50.800003}
@@ -1213,6 +1242,9 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1300242599}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1400,6 +1432,10 @@ RectTransform:
   - {fileID: 252133611}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+  - {fileID: 973893241}
+>>>>>>> Stashed changes
 =======
   - {fileID: 973893241}
 >>>>>>> Stashed changes
@@ -1412,7 +1448,11 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -91, y: 230}
+=======
+  m_AnchoredPosition: {x: -55, y: 230}
+>>>>>>> Stashed changes
 =======
   m_AnchoredPosition: {x: -55, y: 230}
 >>>>>>> Stashed changes
@@ -1509,7 +1549,11 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_AnchoredPosition: {x: -273, y: 230}
+=======
+  m_AnchoredPosition: {x: -235, y: 231}
+>>>>>>> Stashed changes
 =======
   m_AnchoredPosition: {x: -235, y: 231}
 >>>>>>> Stashed changes
@@ -1655,7 +1699,10 @@ SceneRoots:
   - {fileID: 583424958}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - {fileID: 973893241}
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1666,6 +1713,10 @@ SceneRoots:
   - {fileID: 524711511}
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+  - {fileID: 832434644}
+>>>>>>> Stashed changes
 =======
   - {fileID: 832434644}
 >>>>>>> Stashed changes
