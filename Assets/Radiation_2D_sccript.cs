@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class RadiationZone2D : MonoBehaviour
 {
     [Header("Nastavení radiace")]
-    public float radiationRate = 5f;      // Přibývání radiace za sekundu
+    public float radiationRate = 7f;      // Přibývání radiace za sekundu
     public float maxRadiation = 100f;     // Maximum radiace
     public float decayRate = 2f;          // Klesání radiace mimo zónu
 

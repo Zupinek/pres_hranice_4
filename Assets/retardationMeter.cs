@@ -1,76 +1,55 @@
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class LethalDoseSystem : MonoBehaviour
+public class PlayerDeathManager : MonoBehaviour
 {
-    [Header("Reference na radiaci")]
-    public RadiationZone2D radiationSystem; // Přetáhni objekt s RadiationZone2D
+    [Header("Reference na hráče")]
+    public GameObject player;           // Přetáhni objekt hráče (GameObject s pohybem apod.)
 
-    [Header("Nastavení smrtelné dávky")]
-    public float lethalRate = 4f;       // Jak rychle roste smrtelná dávka
-    public float maxLethal = 100f;      // Maximum dávky
+    [Header("Nastavení smrti")]
+    public float deathDelay = 1.5f;     // Zpoždění před restartem
+    public bool autoRestart = true;     // Automaticky restartovat po smrti?
+    public bool disablePlayerScripts = true; // Vypne všechny skripty na hráči
 
-    [Header("UI")]
-    public Slider lethalSlider;
-    public Image fillImage;
+    private bool isDead = false;
 
-    [Header("Barvy přechodu (volitelné)")]
-    public Color lowColor = Color.green;
-    public Color highColor = Color.black;
-
-    [Header("Reference na systém smrti")]
-    public PlayerDeathManager deathManager; // 💀 Přetáhni sem objekt s PlayerDeathManager
-
-    private float currentLethal = 0f;
-    private bool lethalReached = false;
-
-    void Start()
+    /// <summary>
+    /// Zavolej tuhle metodu, když má hráč umřít (např. z radiace nebo z HP)
+    /// </summary>
+    public void OnLethalDoseReached()
     {
-        if (lethalSlider != null)
+        if (isDead) return;
+
+        isDead = true;
+        Debug.Log("💀 Hráč zemřel!");
+
+        // Deaktivuj hráče nebo jeho skripty
+        if (player != null)
         {
-            lethalSlider.minValue = 0;
-            lethalSlider.maxValue = maxLethal;
-            lethalSlider.value = 0;
-            lethalSlider.wholeNumbers = false;
+            if (disablePlayerScripts)
+            {
+                MonoBehaviour[] scripts = player.GetComponents<MonoBehaviour>();
+                foreach (var script in scripts)
+                {
+                    script.enabled = false;
+                }
+            }
+
+            // můžeš místo vypnutí použít: player.SetActive(false);
         }
+
+        // Můžeš přidat efekt (např. ztmavení, zvuk smrti apod.)
+        StartCoroutine(RestartScene());
     }
 
-    void Update()
+    private System.Collections.IEnumerator RestartScene()
     {
-        if (radiationSystem == null || lethalReached) return;
+        yield return new WaitForSeconds(deathDelay);
 
-        // Roste jen pokud je radiace plná
-        if (radiationSystem.IsRadiationFull())
-            currentLethal += lethalRate * Time.deltaTime;
-
-        // Omez hodnoty
-        currentLethal = Mathf.Clamp(currentLethal, 0, maxLethal);
-        UpdateUI();
-
-        // Když je dávka plná → informuj PlayerDeathManager
-        if (currentLethal >= maxLethal)
+        if (autoRestart)
         {
-            currentLethal = maxLethal;
-            lethalReached = true;
-            Debug.Log("☢️ Smrtelná dávka dosažena!");
-            if (deathManager != null)
-                deathManager.OnLethalDoseReached(); // 🧩 zavolá smrt
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.buildIndex);
         }
     }
-
-    void UpdateUI()
-    {
-        if (lethalSlider == null) return;
-
-        lethalSlider.value = currentLethal;
-
-        if (fillImage != null)
-        {
-            float t = currentLethal / maxLethal;
-            fillImage.color = Color.Lerp(lowColor, highColor, t);
-        }
-    }
-
-    // Getter (pokud chceš z jiných skriptů číst hodnotu)
-    public float GetCurrentLethal() => currentLethal;
 }
