@@ -65,4 +65,11 @@ public class Playermovement03 : MonoBehaviour
         if (collision.contacts[0].normal.y > 0.5f)
             isGrounded = true;
     }
+
+    // ✅ Funkce pro JumpBoost
+    public void ActivateJumpBoost(float boostAmount = 100f)
+    {
+        jumpForce += boostAmount;
+        Debug.Log("JumpBoost aktivován! Nový jumpForce: " + jumpForce);
+    }
 }
